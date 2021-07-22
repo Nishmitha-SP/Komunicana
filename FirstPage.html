@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+
+    <link rel="stylesheet" href="./First.css" type="text/css">
+
+   <!-- adding bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <!-- font awesome cdn -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/53ed64fb17.js" crossorigin="anonymous"></script>
+   
+   <link rel="stylesheet" href=
+     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+      var x = 0;
+      function myFunction(){
+          x++;
+          if(x == 1){
+          document.getElementById("img").src="./images/carousel6.jpg";
+          }else if (x == 2){
+              document.getElementById("img").src="./images/carousel7.jpg";
+          }else if (x == 3){
+              document.getElementById("img").src= "./images/carousel8.jpg";
+          }
+      }
+   </script>-
+</head>
+
+<body>
+  <div class="header1">
+        <div class="navbar-header1">
+          <a class="navbar-brand1" href="#" style="color: black;">&#9743; (+91)9876543210&nbsp; 
+              &#128231;info@bitcreationslab.com</a>
+        </div>
+        <div class="navbar-brand2">
+          <div>SignUp</div>&nbsp;&nbsp;
+          <div class="items"><i class="fab fa-facebook-square" style="color: rgb(13, 50, 153);"></i></div>
+          <div class="items"><i class="fab fa-twitter-square" style="color: rgb(35, 189, 228);"></i></div>
+          <div class="items"><i class="fab fa-linkedin" style="color: rgb(102, 153, 211);"></i></div>
+          <div class="items"><i class="fab fa-google-plus-square" style="color:red;"></i></div>
+        </div>     
+  </div>
+
+    <!--nav bar-->
+    
+      <div class="main">
+        <div class="logo">
+            <div class="logo-item"><img src="./images/logo.png" alt="icon" style="background-color: white;"></div>
+        </div>
+        <div class="nav3 justify-content-end">
+          <div class="nav-item"><i class="fas fa-house-user"></i><p class="top">Home</p></div>
+          <div class="nav-item"><i class="fas fa-briefcase"></i><p class="top">Service</p></div>
+          <div class="nav-item"><i class="fas fa-pencil-alt"></i><p class="top">Blog</p></div>
+          <div class="nav-item"><i class="fas fa-envelope"></i><p class="top">Contact</p></div>
+          <div class="nav-item" style="box-shadow: rgb(248, 113, 176);border: pink;"><button class="top">PIDE TU</button></div>
+        </div>
+      </div>
+    
+
+    <!--slide image-->
+    <div class="slide-container"></div>
+      <center>
+        <img src="./images/carousel6.jpg" id="img" onclick="myFunction()">
+      </center>
+    </div>
+
+    <!--paragraph-->
+    <div class="paragraph">
+      <center>
+        <h2>Diseno y Desarrollo Web-Marketing Online para pymes</h2>
+        <p>Lorem ipsum <span style="color: rgb(252, 92, 145);">Marketing Online</span> dolor sit amet. </p>
+      </center>
+    </div>
+
+    <!--card-->
+    <div class="container pt-2" style="padding-left: 50px; border-radius: 20px;">
+      <div class="card-deck ">
+        <div class="card" style="max-width: 15rem; text-align: center;">
+          <i class="fas fa-laptop" style="font-size:30px; background-color:rgb(252, 92, 145);border-radius: 50%;  height:50px; width: 50px; margin-left: 90px; margin-top:10px; padding-top: 10px; color: white;"></i>
+          <div class="card-body">
+            <h6 class="card-title" style="color: black;">Diseno y Desarrollo Web</h6>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis, minus nemo quam quae amet!</p>
+              <p><span style="color: rgb(252, 92, 145); font-size:14px;">Services Web ></span></p>
+          </div>
+        </div>
+        <div class="card" style="max-width: 15rem; text-align: center;">
+          <i class="fas fa-bullhorn" style="font-size:30px; background-color:rgb(252, 92, 145);border-radius: 50%;  height:50px; width: 50px; margin-left: 90px; margin-top:10px; padding-top: 10px; color: white;"></i>
+          <div class="card-body">
+            <h6 class="card-title" style="color: black;">Redes Sociales</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis voluptatibus laboriosam dicta.</p>
+            <p><span style="color: rgb(252, 92, 145); font-size:14px;">Services de Redes Sociales ></span></p>
+          </div>
+        </div>
+        <div class="card" style="max-width: 15rem; text-align: center;">
+          <i class="fas fa-volleyball-ball" style="font-size:30px; background-color:rgb(252, 92, 145);border-radius: 50%;  height:50px; width: 50px; margin-left: 90px; margin-top:10px; padding-top: 10px; color: white;"></i>
+          <div class="card-body">
+            <h6 class="card-title" style="color: black;">Posicionamiento SEO</h6>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet..</p>
+            <p><span style="color: rgb(252, 92, 145); font-size:14px;">Services CEO ></span></p>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 15rem; text-align: center;">
+          <i class="fas fa-file-invoice" style="font-size:30px; background-color:rgb(252, 92, 145); border-radius: 50%;  height:50px; width: 50px; margin-left: 90px; margin-top:10px; padding-top: 10px; color: white;"></i>
+          <div class="card-body">
+            <h6 class="card-title" style="color:black;">Email Marketing </h6>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quas perferendis consequatur.</p>
+            <p><span style="color: rgb(252, 92, 145); font-size:14px;">Services de Email Marketing ></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--border paragraph-->
+    <div class="borderpara">
+      <center>
+        <p class="buttonpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vitae. Lorem ipsum dolor sit amet.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button>Contactor</button></p>
+      </center>
+    </div>
+
+    <!--left paragraph-->
+    <div class="para">
+      <div class="leftpara" style="height: 250px;">
+        <h4>Ultimos post</h4>
+        <p>En nuestro Blog sobre<br><span style="color: rgb(252, 92, 145);">Marketing Online para pymes</span>
+          <br>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+    <!--right paragraph cards-->
+      <div class="card-group" style="width: 70%;height: 30px;">
+          <div class="card" style="height: 250px;">
+          <img class="card-img-top" src="./images/sky.jpg" style="height: 120px;" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-text">Lorem ipsum dolor sit amet.</h6>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">26 may, 2013<i class="far fa-comment-alt" style="text-align: right;padding-left: 145px;"></i></small>
+          </div>
+        </div>
+        <div class="card" style="height: 250px;">
+          <img class="card-img-top" src="./images/orange.jpg" style="height: 120px;" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-text">Lorem ipsum dolor sit.</h6>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">25 may, 2013<i class="far fa-comment-alt" style="text-align: right;padding-left: 145px;"></i></small>
+          </div>
+        </div>
+        <div class="card" style="height: 250px;">
+          <img class="card-img-top" src="./images/hola.jpg" style="height: 120px;" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-text">Lorem ipsum dolor sit amet.</h6>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">23 may, 2013<i class="far fa-comment-alt" style="text-align: right;padding-left: 145px;"></i></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--last paragraph-->
+    <center class="rowmain">
+    <div class="row">
+      <div class="col">
+        <h6><img src="./images/logo.png" alt="logo-down"></h6><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col">
+        <div>
+          <small class="colu-space"><b>BLOG</b><span class="hrline"><hr size="10" width="30%" color="gray"></span></small>
+        </div>
+        <div class="blogimage">
+          <span class="smallimage"><img src="./images/sky1.jpg" alt="downimage"></span><p class="paraimage1">Dolor sit amet consectetur adipisicing.<br>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+          <span class="smallimage"><img src="./images/orange1.jpg" alt="downimage"></span><p class="paraimage2">Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet. </p>
+        </div>
+      </div>
+      <div class="col">
+        <small><b>TWITTER</b><span class="hrline"><hr size="10" width="30%" color="gray"></span></small>
+        <div class="twittericon">
+          <i class="fab fa-twitter"></i>          
+        </div>
+
+        <div class="twitterpara">
+          <p class="tweet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, impedit! <br>Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="tweet1">4 June 2013, 15:30</p>
+        </div>
+      </div>
+      <div class="col">
+        <small><b>CONTACT</b><span class="hrline" style="text-align: right;"><hr size="10" width="30%" color="gray"></span></small>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <small>Komunicana</small>
+        </div>
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <small>(+91)9876543210</small>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <small>info@bitcreationslab.com</small>
+        </div>
+        <center style="padding-top: 30px;">
+          <i class="fab fa-facebook-square" style="color: rgb(13, 50, 153);"></i>
+          <i class="fab fa-twitter-square" style="color: rgb(35, 189, 228);"></i>
+          <i class="fab fa-linkedin" style="color: rgb(102, 153, 211);"></i>
+          <i class="fab fa-google-plus-square" style="color:red;"></i>
+        </center>
+      </div>
+    </div>
+    </center>
+
+    <!--footer-->
+    <center>
+    <div class="footer">
+      <p class="footpara">@Copyright 2013 Komunicana<i class="fas fa-wifi-1"></i>Diseno y Desarrollo Web Marketing Online</p>
+    </div>
+    </center>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+/*header*/
+.header1{
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 243, 243);
+    height: 40px;
+}
+.navbar-header1{
+    height: 20px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.navbar-brand2{
+    height: 90px;
+    width: 20%;
+    display: flex;
+    padding-left: 50px;
+}
+.items{
+    height: 0px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*nav bar*/
+.main{
+    height: 75px;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: fit-content;
+    width: 100%;
+    object-fit: contain;
+    padding-left: 350px;
+}
+.nav3{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.nav-item{
+    height: 0px;
+    width: 100%;
+    margin-top: 5px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+.top{
+    text-align: left;
+    display: block;
+}
+button{
+    box-shadow: rgb(250, 112, 135);
+    background-color: rgb(252, 92, 145);
+    width: 100px;
+    height: 40px;
+}
+
+/*slide image*/
+.slide-container{
+    position:relative;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/*paragraph*/
+.paragraph{
+    padding-top: 20px;
+}
+
+/*border paragraph*/
+.borderpara p{
+    background: rgb(243, 241, 241);
+    width: 69%;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.borderpara{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/*left paragraph*/
+.leftpara{
+    text-align: left;
+    padding-left: 250px;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 250px;
+    width: 100%;
+}
+.card-footer{
+    height: 40px;
+}
+
+/*last para*/
+.rowmain{
+    padding-top: 30px;
+    width: 100%;
+}
+.row{
+    background-color: rgb(238, 235, 235);
+    height: 250px;
+    width: 100%;
+    padding-top: 10PX;
+}
+.col{
+    padding-left: 250px;
+    text-align: left;
+    height: 300px;
+}
+hr{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.colu-space{
+    padding-top: 15px;
+}
+.smallimage{
+    size: 10px 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.paraimage1{
+    text-align: justify;
+    margin-left: 55px;
+    width: 100%;
+    padding-bottom: 10px;
+    /* text-indent: 5px; */
+    margin-top: -60px;
+    text-justify: auto;
+}
+.paraimage2{
+    text-align: justify;
+    margin-left: 55px;
+    /* text-indent: 5px; */
+    margin-top: -60px;
+}
+
+/*twitter para*/
+.twittericon{
+    text-align: left;
+}
+.twitterpara{
+    text-align: justify;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.tweet .tweet1{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    text-indent: 10px;
+}
+
+/*footer*/
+.footer{
+    background-color: rgb(252, 92, 145);
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footpara{
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    color: white;
+}
+#img{
+    cursor: pointer;
+}
